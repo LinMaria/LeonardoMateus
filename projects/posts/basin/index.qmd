@@ -27,7 +27,10 @@ Modeling results for the Tunja basin
 
 In our study, we've identified significant variations in the duration, amplitude, and frequency of seismic waves at nodes overlying sedimentary basins and topographic features, as shown in @fig-tempo.
 
-![Iso-aceleration values in the Tunja basin](./tempo.png){#fig-tempo}
+::: {layout-ncol="1"}
+![Surface-Viewed Waveform Shapes Derived from Modeling](./tempo.png){#fig-tempo}
+:::
+
 The @fig-model1 and @fig-model2 offer a detailed visualization through colormaps of amplification versus structural period, utilizing a color spectrum where more intense shades of blue signify higher amplifications, contrasting sharply with yellows that indicate lower amplifications. On the left, we observe the amplification outcomes derived from a one-dimensional model, providing a foundational yet simplified understanding of seismic wave amplifications across the basin. In @fig-model1, the amplifications depicted are the result of employing more complex two-dimensional models, offering a nuanced and comprehensive portrayal of seismic behavior.
 
 Key observations from these models include:
@@ -41,17 +44,17 @@ Key observations from these models include:
 
 ::: {#fig-elephants layout-ncol=2}
 
-![Geological profile of the Tunja basin](./1d.png){#fig-model1}
+![Amplification Factor Calculated Through One-Dimensional Models (1D)](./1d.png){#fig-model1}
 
-![Iso-aceleration values in the Tunja basin](./1d2.png){#fig-model2}
+![Amplification Factor Calculated Through two-Dimensional Models (2D)](./1d2.png){#fig-model2}
 
-Modeling results for the Tunja basin
+Amplification Factor Calculated for the Tunja basin
 :::
 
 
 When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect.
 
-![Iso-aceleration values in the Tunja basin](./1defecto.png){#fig-1d}
+![Basin-effect definition: 1D/2D](./1defecto.png){#fig-1d}
 
 For practical purposes, and in order to incorporate these effects into building codes, it is necessary to divide the basin region based on its depth. For this specific case, I have segmented it into two distinct areas.
 

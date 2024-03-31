@@ -133,9 +133,9 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title column-body">
       <h1 class="title">Basin effect</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Completed</div>
-                <div class="quarto-category">multitemporal</div>
-                <div class="quarto-category">multisensor</div>
+                <div class="quarto-category">Sedimentary basin</div>
+                <div class="quarto-category">seismic hazard</div>
+                <div class="quarto-category">site-effect</div>
               </div>
                   </div>
   </div>
@@ -168,15 +168,15 @@ ul.task-list li input[type="checkbox"] {
 
 <p>The primary research focus was integrating models into seismic hazard, by using numerical simulations to account for site-specific effects. It was addressed by conducting two-dimensional simulations that analyzed the propagation of seismic waves through the ground and incorporating a non-linear constitutive model into QUAD4M, a FORTRAN software developed by researchers at the University of California, Davis.</p>
 <p><strong><em>Iso-accelerations</em></strong></p>
-<p>The results of our work are twofold: On <a href="#fig-basin">Figure&nbsp;2 (a)</a>, we highlight the sedimentary basin in gray, underscoring its complex structure and geological significance. On <a href="#fig-acc">Figure&nbsp;2 (b)</a>, we present iso-acceleration contours from our simulations, which identify areas within the basin at increased risk of seismic activity. This methodology not only advances our understanding of seismic wave behavior through complex geological formations but also aids in the precise identification of high-risk zones, contributing crucial data for seismic risk mitigation and urban planning in Tunja.</p>
-<div id="fig-elephants" class="quarto-layout-panel page-columns page-full">
+<p>The results of our work are twofold: On <a href="#fig-basin">Figure&nbsp;1 (a)</a>, we highlight the sedimentary basin in gray, underscoring its complex structure and geological significance. On <a href="#fig-acc">Figure&nbsp;1 (b)</a>, we present iso-acceleration contours from our simulations, which identify areas within the basin at increased risk of seismic activity. This methodology not only advances our understanding of seismic wave behavior through complex geological formations but also aids in the precise identification of high-risk zones, contributing crucial data for seismic risk mitigation and urban planning in Tunja.</p>
+<div id="fig-basins" class="quarto-layout-panel page-columns page-full">
 <p></p><figcaption>Figure&nbsp;1: Modeling results for the Tunja basin</figcaption><p></p>
 <figure class="figure page-columns page-full">
 <div class="quarto-layout-row quarto-layout-valign-top page-columns page-full">
 <div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-basin" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="./basin.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<p><img src="./basin.png" class="img-fluid figure-img" data-ref-parent="fig-basins"></p>
 <figcaption class="figure-caption margin-caption">(a) Geological profile of the Tunja basin</figcaption>
 </figure>
 </div>
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-acc" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="./modeloD.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
+<p><img src="./modeloD.png" class="img-fluid figure-img" data-ref-parent="fig-basins"></p>
 <figcaption class="figure-caption margin-caption">(b) Iso-aceleration values in the Tunja basin</figcaption>
 </figure>
 </div>
@@ -192,18 +192,32 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </figure>
 </div>
-<p>We have observed changes in the duration, amplitude, and frequency of nodes located over sedimentary basins and topographic features.</p>
-<p><img src="./tempo.png" id="fig-tempo" class="img-fluid" alt="Iso-aceleration values in the Tunja basin"> The following figures display colormaps of amplifications versus structural periodo. More intense blue indicates higher amplifications, in contrast to yellow, which signifies lower amplifications. On the left, the colormap represents amplifications resulting from a one-dimensional model. On the right, the amplifications are a consequence of using two-dimensional models. We can see:</p>
-<ul>
-<li><p>Both models illustrate that the greatest amplifications occur close to the deepest zones of the basin</p></li>
-<li><p>It is evident that the one-dimensional model cannot replicate certain features in the basin, whereas the two-dimensional model successfully captures these details</p></li>
-</ul>
+<p>In our study, we’ve identified significant variations in the duration, amplitude, and frequency of seismic waves at nodes overlying sedimentary basins and topographic features, as shown in <a href="#fig-tempo">Figure&nbsp;2</a>.</p>
+<div class="quarto-layout-panel page-columns page-full">
+<div class="quarto-layout-row quarto-layout-valign-top page-columns page-full">
+<div class="quarto-layout-cell page-columns page-full" style="flex-basis: 100.0%;justify-content: center;">
+<div id="fig-tempo" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="./tempo.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;2: Surface-Viewed Waveform Shapes Derived from Modeling</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The <a href="#fig-model1">Figure&nbsp;3 (a)</a> and <a href="#fig-model2">Figure&nbsp;3 (b)</a> offer a detailed visualization through colormaps of amplification versus structural period, utilizing a color spectrum where more intense shades of blue signify higher amplifications, contrasting sharply with yellows that indicate lower amplifications. On the left, we observe the amplification outcomes derived from a one-dimensional model, providing a foundational yet simplified understanding of seismic wave amplifications across the basin. In <a href="#fig-model1">Figure&nbsp;3 (a)</a>, the amplifications depicted are the result of employing more complex two-dimensional models, offering a nuanced and comprehensive portrayal of seismic behavior.</p>
+<p>Key observations from these models include:</p>
+<ol type="1">
+<li><p><strong>Prominent Amplification in Basin’s Deepest Zones</strong>: Both the one-dimensional and two-dimensional models converge on the insight that the most significant amplifications are observed near the deepest zones of the basin. This correlation underscores the critical role of basin depth in influencing seismic wave amplification, a vital consideration for seismic risk assessment.</p></li>
+<li><p><strong>One-Dimensional Model Limitations</strong>: The one-dimensional model, while valuable for initial analyses, exhibits inherent limitations in its capacity to fully replicate the intricate features of the basin’s geology. This simplification results in a less accurate representation of how seismic waves interact with the basin’s complex structure.</p></li>
+<li><p><strong>Two-Dimensional Model’s Detailed Capture</strong>: In contrast, the two-dimensional model demonstrates a superior ability to accurately model and reflect the basin’s detailed geological features. This model successfully captures variations in seismic behavior that the one-dimensional model cannot, such as lateral variations in seismic wave speed and amplification due to the basin’s irregular shape and varying depth.</p></li>
+</ol>
 <div id="fig-elephants" class="quarto-layout-panel page-columns page-full">
-<p></p><figcaption>Figure&nbsp;2: Modeling results for the Tunja basin</figcaption><p></p>
+<p></p><figcaption>Figure&nbsp;3: Modeling results for the Tunja basin</figcaption><p></p>
 <figure class="figure page-columns page-full">
 <div class="quarto-layout-row quarto-layout-valign-top page-columns page-full">
 <div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
-<div id="fig-basin" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<div id="fig-model1" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="./1d.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
 <figcaption class="figure-caption margin-caption">(a) Geological profile of the Tunja basin</figcaption>
@@ -211,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
-<div id="fig-acc" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<div id="fig-model2" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="./1d2.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
 <figcaption class="figure-caption margin-caption">(b) Iso-aceleration values in the Tunja basin</figcaption>
@@ -225,14 +239,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="fig-1d" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="./1defecto.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;3: Iso-aceleration values in the Tunja basin</figcaption>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;4: Iso-aceleration values in the Tunja basin</figcaption>
 </figure>
 </div>
 <p>For practical purposes, and in order to incorporate these effects into building codes, it is necessary to divide the basin region based on its depth. For this specific case, I have segmented it into two distinct areas.</p>
 <div id="fig-baeffect" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="./basin effect.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;4: Iso-aceleration v</figcaption>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;5: Iso-aceleration v</figcaption>
 </figure>
 </div>
 
