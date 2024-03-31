@@ -31,9 +31,9 @@ I conducted several two-dimensional models across a range of intensities, select
 
 In @fig-amp, we observe transfer functions corresponding to each combination of slope and curvature. It's evident that a curvature of zero results in an amplification equal to zero. Positive curvatures represent crests, leading to amplifications, while negative curvatures are indicative of valleys, resulting in deamplifications.
 
-![Geological profile of the Tunja basin](./amplification.png){#fig-amp}
+![Amplification functions due to the topographic effect.](./amplification.png){#fig-amp}
 
 
-When I applied those functions, I generated the following map, which proves invaluable for incorporation into building codes.
+To effectively integrate the amplification function into building codes, thereby enhancing seismic risk assessment and informing policy development, the calculated amplification (as shown in @fig-amp) across various curvature-slope combinations is spatially mapped out in @fig-map for a fixed spectral period. This approach allows for a detailed visualization of how topographic features influence seismic amplification, offering valuable insights into the spatial variability of seismic risk. By delineating areas of high amplification, this spatialization aids in the targeted refinement of building codes, ensuring that structures are designed with an optimal level of resilience against seismic forces specific to their topographic setting.
 
-![Geological profile of the Tunja basin](./mapatopo.png){#fig-map}
+![Spatial distribution of the calculated topographic amplification.](./mapatopo.png){#fig-map}
