@@ -1,16 +1,13 @@
-# This file controls the settings for your Quarto template from www.marvinschmitt.com
-
 # website settings
 website:
-  title: "Lina María Pérez"                                # Your name
-  description: "Healing the soul through the experience and love of the natural world"   # A brief slogan (optional)
-  image: img/logo.png
-  favicon: img/favicon.png
+  title: "Leonardo S. Mateus Báez"                                # Your name
+  description: "We shall defend our island, whatever the cost may be, we shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender."   # A brief slogan (optional)
+#  image: img/logo.png
+#  favicon: img/favicon.png
   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    logo: /img/favicon.png
     
     # your sub-pages
     left:
@@ -22,12 +19,12 @@ website:
     # your social media handles
     right:
       - icon: twitter
-        href: https://twitter.com/Mariali_P
+        href: https://twitter.com/lsmateusb
       - icon: linkedin
-        href: https://www.linkedin.com/in/linmapeerzg621/
+        href: https://www.linkedin.com/in/lsmateusb/
       - icon: envelope
         aria-label: email
-        href: "mailto:linamapg@gmail.com"  
+        href: "mailto:lsmateusb@gmail.com"  
   
   
 
@@ -39,7 +36,7 @@ website:
     left: |
       <span class="faux-block">&#169; 2024 Lina Pérez</span>
     right: |
-      <span class="faux-block"><a href="https://github.com/LinMaria/LinaAtTheMoment">View source on GitHub</a></span>
+      <span class="faux-block"><a href="https://github.com/lmateus/LeonardoMateus">View source on GitHub</a></span>
 
 project:
   type: website
@@ -58,7 +55,7 @@ format:
   html:
     fontsize: 1.1em
     theme: 
-      - flatly
+      - litera
       - html/styles.scss
     toc: false
     code-link: true

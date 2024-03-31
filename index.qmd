@@ -1,7 +1,7 @@
 ---
 page-layout: full
 sidebar: false
-image: "img/P1010568.JPG"
+image: "img/FotoLeo.JPG"
 about:
   template: trestles
   id: about-block
@@ -10,29 +10,29 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com/Mariali_P
+      href: https://twitter.com/lsmateusb
     - icon: github
       text: Github
-      href: https://github.com/LinMaria
+      href: https://github.com/lmateus
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/linmapeerzg621/
+      href: https://www.linkedin.com/in/lsmateusb/
     - icon: envelope
       text: Email
-      href: "mailto:linamapg@gmail.com"  
+      href: "mailto:lsmateusb@gmail.com"  
 ---
 
 ::: {#about-block}
 ## Welcome!
 
-I am a geologist from the National University of Colombia, currently pursuing a Master's degree in Remote Sensing Geoinformation and Communication at the University of Potsdam in Germany. Additionally, I am engaged as a student assistant with the [Remote Sensing and Geoinformatics group](https://www.geo.fu-berlin.de/geog/fachrichtungen/geoinformatik/index.html) at the Freie Universität Berlin. 
+I am a civil Engineer with a Master’s Degree in Geotechnical Engineering, specializing in numerical modeling, data processing, and programming for seismic hazards and risks. Passionate about exploring innovative methodologies to enhance data analysis and scientific approaches for addressing seismic hazards. Strong interest in seismic hazard, dynamic response, rock mechanics and hydromechanics in particular stress characterization.  
 
 
-**My research interests:** Numerical modeling of surface processes, spatial data analysis applied to hazard and risk assessment.
+
 :::
 
 
-Please feel free to [contact me](mailto:lina.perez.garcia@fu-berlin.de) if you have any questions or would like to discuss potential projects.
+Please feel free to [contact me](mailto:lsmateusb@gmail.com) if you have any questions or would like to discuss potential projects.
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">

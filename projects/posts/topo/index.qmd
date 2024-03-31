@@ -1,0 +1,38 @@
+---
+title: "Topographic Effect"
+author: "Seismic Hazard & Risk Group - SGC"
+#date: "2024-03-09"
+categories: [Ongoing, sentinel-2, forest damage]
+image: "mapatopo.png"
+sidebar: false
+---
+
+The primary research focus was integrating models into seismic hazard, by using numerical simulations to account for site-specific effects. It was addressed by conducting two-dimensional simulations that analyzed the propagation of seismic waves through the ground and incorporating a non-linear constitutive model into QUAD4M, a FORTRAN software developed by researchers at the University of California, Davis.
+
+***Ongoing Projects***
+
+-   [FutureForest
+    (future-forest.eu)](https://future-forest.eu/ "Future Forest"): The
+    aim of FutureForest is to use artificial intelligence (AI) methods
+    to provide information that can support climate-adapted forest
+    conversion. The effects of different climate forecasts and forest
+    conversion scenarios are to be simulated and the possible effects of
+    different management methods are to be assessed.
+    Main tasks of FU Berlin include:
+    -   Sentinel-2 time series based detection of forest damaged areas
+        in Germany
+    -   Operational \"near real-time\" monitoring using Deep Learning
+        (DL)
+    -   Early detection of damaged areas
+    -   Provision of a Germany-wide map of current forest
+        damage/warnings
+
+-   UAV based analysis of the deciduous forests under drought stress in
+    the historical garden districts of Berlin and Potsdam in 2020 (in
+    cooperation with „Stiftung Preußische Schlösser & Gärten
+    Berlin-Brandenburg" (SPSG) and „Grünflächenamt Berlin
+    Steglitz-Zehlendorf"
+
+You can visit the live dashboard of the Installation site
+[**here**](https://www.geo.fu-berlin.de/en/geog/fachrichtungen/geoinformatik/projekte-fegeoinf/futureforestdashboard2/index.html "here"){target="_blank"}.
+
