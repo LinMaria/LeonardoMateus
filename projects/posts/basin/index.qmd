@@ -28,7 +28,7 @@ Modeling results for the Tunja basin
 In our study, we've identified significant variations in the duration, amplitude, and frequency of seismic waves at nodes overlying sedimentary basins and topographic features, as shown in @fig-tempo.
 
 ![Iso-aceleration values in the Tunja basin](./tempo.png){#fig-tempo}
-The @fig-model1 and @fig-model2 offer a detailed visualization through colormaps of amplification versus structural period, utilizing a color spectrum where more intense shades of blue signify higher amplifications, contrasting sharply with yellows that indicate lower amplifications. On the left, we observe the amplification outcomes derived from a one-dimensional model, providing a foundational yet simplified understanding of seismic wave amplifications across the basin. To the right, the amplifications depicted are the result of employing more complex two-dimensional models, offering a nuanced and comprehensive portrayal of seismic behavior.
+The @fig-model1 and @fig-model2 offer a detailed visualization through colormaps of amplification versus structural period, utilizing a color spectrum where more intense shades of blue signify higher amplifications, contrasting sharply with yellows that indicate lower amplifications. On the left, we observe the amplification outcomes derived from a one-dimensional model, providing a foundational yet simplified understanding of seismic wave amplifications across the basin. In @fig-model1, the amplifications depicted are the result of employing more complex two-dimensional models, offering a nuanced and comprehensive portrayal of seismic behavior.
 
 Key observations from these models include:
 
@@ -38,7 +38,6 @@ Key observations from these models include:
 
 3. **Two-Dimensional Model's Detailed Capture**: In contrast, the two-dimensional model demonstrates a superior ability to accurately model and reflect the basin's detailed geological features. This model successfully captures variations in seismic behavior that the one-dimensional model cannot, such as lateral variations in seismic wave speed and amplification due to the basin's irregular shape and varying depth. 
 
-These findings highlight the importance of selecting an appropriate modeling approach based on the specific geological features and objectives of the study. The two-dimensional model's ability to incorporate a higher level of detail makes it particularly suited for studies aiming to understand the nuanced interactions between seismic waves and complex geological structures, thereby providing more reliable data for seismic hazard analysis and mitigation planning.
 
 ::: {#fig-elephants layout-ncol=2}
 
