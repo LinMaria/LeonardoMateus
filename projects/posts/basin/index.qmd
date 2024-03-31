@@ -34,12 +34,15 @@ The following figures display colormaps of amplifications versus structural peri
 
 - It is evident that the one-dimensional model cannot replicate certain features in the basin, whereas the two-dimensional model successfully captures these details
 
-::: {#fig-1d layout-ncol=2}
-![Iso-aceleration values in the Tunja basin](./1d.png){#fig-1d}
-![Iso-aceleration values in the Tunja basin](./1d2.png){#fig-1d2}
+::: {#fig-elephants layout-ncol=2}
 
-bla
+![Geological profile of the Tunja basin](./1d.png){#fig-basin}
+
+![Iso-aceleration values in the Tunja basin](./1d2.png){#fig-acc}
+
+Modeling results for the Tunja basin
 :::
+
 
 When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect.
 
@@ -47,4 +50,4 @@ When I divide the results from the two-dimensional model by those from the one-d
 
 For practical purposes, and in order to incorporate these effects into building codes, it is necessary to divide the basin region based on its depth. For this specific case, I have segmented it into two distinct areas.
 
-![Iso-aceleration values in the Tunja basin](./basin effect.png){#fig-baeffect}
+![Iso-aceleration v](./basin effect.png){#fig-baeffect}
