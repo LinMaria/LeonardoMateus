@@ -56,7 +56,7 @@ Amplification Factor Calculated for the Tunja basin
 
 When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect (@fig-1d).
 
-![Basin-effect definition: 1D/2D](./1defecto.png){#fig-1d}
+![Basin-effect definition: 2D/1D](./1defecto.png){#fig-1d}
 
 To effectively translate our seismic wave amplification findings into actionable guidelines for building codes, it became imperative to categorize the basin region according to its depth. This stratification is critical for tailoring construction standards that adequately reflect the varying seismic risks across different parts of the basin, as shown in @fig-baeffect. In this specific analysis, I delineated the basin into two distinct zones based on depth: one encompassing areas of the basin above 55 kilometers and another for regions below this depth threshold.
 
