@@ -9,30 +9,7 @@ sidebar: false
 
 The primary research focus was integrating models into seismic hazard, by using numerical simulations to account for site-specific effects. It was addressed by conducting two-dimensional simulations that analyzed the propagation of seismic waves through the ground and incorporating a non-linear constitutive model into QUAD4M, a FORTRAN software developed by researchers at the University of California, Davis.
 
-***Ongoing Projects***
+***Iso-accelerations***
 
--   [FutureForest
-    (future-forest.eu)](https://future-forest.eu/ "Future Forest"): The
-    aim of FutureForest is to use artificial intelligence (AI) methods
-    to provide information that can support climate-adapted forest
-    conversion. The effects of different climate forecasts and forest
-    conversion scenarios are to be simulated and the possible effects of
-    different management methods are to be assessed.
-    Main tasks of FU Berlin include:
-    -   Sentinel-2 time series based detection of forest damaged areas
-        in Germany
-    -   Operational \"near real-time\" monitoring using Deep Learning
-        (DL)
-    -   Early detection of damaged areas
-    -   Provision of a Germany-wide map of current forest
-        damage/warnings
-
--   UAV based analysis of the deciduous forests under drought stress in
-    the historical garden districts of Berlin and Potsdam in 2020 (in
-    cooperation with „Stiftung Preußische Schlösser & Gärten
-    Berlin-Brandenburg" (SPSG) and „Grünflächenamt Berlin
-    Steglitz-Zehlendorf"
-
-You can visit the live dashboard of the Installation site
-[**here**](https://www.geo.fu-berlin.de/en/geog/fachrichtungen/geoinformatik/projekte-fegeoinf/futureforestdashboard2/index.html "here"){target="_blank"}.
+The results of our work are twofold: On the left, we highlight the sedimentary basin in gray, underscoring its complex structure and geological significance. On the right, we present iso-acceleration contours from our simulations, which identify areas within the basin at increased risk of seismic activity. This methodology not only advances our understanding of seismic wave behavior through complex geological formations but also aids in the precise identification of high-risk zones, contributing crucial data for seismic risk mitigation and urban planning in Tunja.
 
