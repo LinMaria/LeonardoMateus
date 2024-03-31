@@ -2,16 +2,16 @@
 title: "Topographic Effect"
 author: "Seismic Hazard & Risk Group - SGC"
 #date: "2024-03-09"
-categories: [Ongoing, sentinel-2, forest damage]
+categories: [Topographic amplification, numerical simulation]
 image: "mapatopo.png"
 sidebar: false
 ---
 
 Numerous studies have identified that topography significantly influences the amplification of seismic waves, with amplifications occurring on convex forms such as hills and deamplification on concave geoforms such as valleys and canyons (Rai, 2015)
 
-Calibrating the model is essential for ensuring its reliability. A close correspondence between the modeled results and actual earthquake measurements validates the model's accuracy. Below is another numerical model from Pereira, Colombia, where the impact of topography on amplification is clearly visible. Most importantly, this example underscores the precision of the two-dimensional model in capturing these effects.
+Calibrating the model is essential for ensuring its reliability. A close correspondence between the modeled results and actual earthquake measurements validates the model's accuracy (@#fig-stations). Below is another numerical model from Pereira, Colombia, where the impact of topography on amplification is clearly visible. Most importantly, this example underscores the precision of the two-dimensional model in capturing these effects.
 
-![Geological profile of the Tunja basin](./perc.png){#fig-stations}
+![Amplification functions for three stations located at three key locations along the Pereira basin profile.](./perc.png){#fig-stations}
 
 
 PERC1, PERC2, and PERC3 are accelerometer stations located on varying topographies. Each figure presented includes four lines representing different aspects of seismic data analysis:
@@ -24,12 +24,12 @@ PERC1, PERC2, and PERC3 are accelerometer stations located on varying topographi
 
 - Record (black line) illustrates the response spectrum from a real earthquake event
 
-I conducted several two-dimensional models across a range of intensities, selecting multiple points on the surface to compute curvature and slope from a digital elevation model. These calculations were then correlated with amplifications, enabling me to establish functional relationships. These relationships illustrate how terrain characteristics influence amplification effects for specific spectrum periods (PGA, 0.2 s, 1.0 s).
+I conducted several two-dimensional models across a range of intensities, selecting multiple points on the surface to compute curvature and slope from a digital elevation model. These calculations were then correlated with amplifications, enabling me to establish functional relationships. These relationships illustrate how terrain characteristics influence amplification effects for specific spectral periods (PGA, 0.2 s, 1.0 s) (@fig-2d).
 
-![Geological profile of the Tunja basin](./topographic.png){#fig-2d}
+![Correlation between curvature - slope with amplification for different spectral periods.](./topographic.png){#fig-2d}
 
 
-Above, we observe transfer functions corresponding to each combination of slope and curvature. It's evident that a curvature of zero results in an amplification equal to zero. Positive curvatures represent crests, leading to amplifications, while negative curvatures are indicative of valleys, resulting in deamplifications.
+In @fig-amp, we observe transfer functions corresponding to each combination of slope and curvature. It's evident that a curvature of zero results in an amplification equal to zero. Positive curvatures represent crests, leading to amplifications, while negative curvatures are indicative of valleys, resulting in deamplifications.
 
 ![Geological profile of the Tunja basin](./amplification.png){#fig-amp}
 
