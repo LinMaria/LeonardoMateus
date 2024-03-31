@@ -2,7 +2,7 @@
 title: "Basin effect"
 author: "Seismic Hazard & Risk Group - SGC"
 #date: "2014-12-01"
-categories: [Completed,multitemporal,multisensor]
+categories: [Sedimentary basin,seismic hazard,site-effect]
 image: "basin.png"
 editor: 
   markdown: 
@@ -16,7 +16,7 @@ The primary research focus was integrating models into seismic hazard, by using 
 
 The results of our work are twofold: On @fig-basin, we highlight the sedimentary basin in gray, underscoring its complex structure and geological significance. On @fig-acc, we present iso-acceleration contours from our simulations, which identify areas within the basin at increased risk of seismic activity. This methodology not only advances our understanding of seismic wave behavior through complex geological formations but also aids in the precise identification of high-risk zones, contributing crucial data for seismic risk mitigation and urban planning in Tunja.
 
-::: {#fig-elephants layout-ncol=2}
+::: {#fig-basins layout-ncol=2}
 
 ![Geological profile of the Tunja basin](./basin.png){#fig-basin}
 
@@ -25,20 +25,26 @@ The results of our work are twofold: On @fig-basin, we highlight the sedimentary
 Modeling results for the Tunja basin
 :::
 
-We have observed changes in the duration, amplitude, and frequency of nodes located over sedimentary basins and topographic features.
+In our study, we've identified significant variations in the duration, amplitude, and frequency of seismic waves at nodes overlying sedimentary basins and topographic features, as shown in @fig-tempo.
 
 ![Iso-aceleration values in the Tunja basin](./tempo.png){#fig-tempo}
-The following figures display colormaps of amplifications versus structural periodo. More intense blue indicates higher amplifications, in contrast to yellow, which signifies lower  amplifications. On the left, the colormap represents amplifications resulting from a one-dimensional model. On the right, the amplifications are a consequence of using two-dimensional models. We can see:
+The @fig-model1 and @fig-model2 offer a detailed visualization through colormaps of amplification versus structural period, utilizing a color spectrum where more intense shades of blue signify higher amplifications, contrasting sharply with yellows that indicate lower amplifications. On the left, we observe the amplification outcomes derived from a one-dimensional model, providing a foundational yet simplified understanding of seismic wave amplifications across the basin. To the right, the amplifications depicted are the result of employing more complex two-dimensional models, offering a nuanced and comprehensive portrayal of seismic behavior.
 
-- Both models illustrate that the greatest amplifications occur close to the deepest zones of the basin 
+Key observations from these models include:
 
-- It is evident that the one-dimensional model cannot replicate certain features in the basin, whereas the two-dimensional model successfully captures these details
+1. **Prominent Amplification in Basin's Deepest Zones**: Both the one-dimensional and two-dimensional models converge on the insight that the most significant amplifications are observed near the deepest zones of the basin. This correlation underscores the critical role of basin depth in influencing seismic wave amplification, a vital consideration for seismic risk assessment.
+
+2. **One-Dimensional Model Limitations**: The one-dimensional model, while valuable for initial analyses, exhibits inherent limitations in its capacity to fully replicate the intricate features of the basin's geology. This simplification results in a less accurate representation of how seismic waves interact with the basin's complex structure.
+
+3. **Two-Dimensional Model's Detailed Capture**: In contrast, the two-dimensional model demonstrates a superior ability to accurately model and reflect the basin's detailed geological features. This model successfully captures variations in seismic behavior that the one-dimensional model cannot, such as lateral variations in seismic wave speed and amplification due to the basin's irregular shape and varying depth. 
+
+These findings highlight the importance of selecting an appropriate modeling approach based on the specific geological features and objectives of the study. The two-dimensional model's ability to incorporate a higher level of detail makes it particularly suited for studies aiming to understand the nuanced interactions between seismic waves and complex geological structures, thereby providing more reliable data for seismic hazard analysis and mitigation planning.
 
 ::: {#fig-elephants layout-ncol=2}
 
-![Geological profile of the Tunja basin](./1d.png){#fig-basin}
+![Geological profile of the Tunja basin](./1d.png){#fig-model1}
 
-![Iso-aceleration values in the Tunja basin](./1d2.png){#fig-acc}
+![Iso-aceleration values in the Tunja basin](./1d2.png){#fig-model2}
 
 Modeling results for the Tunja basin
 :::
