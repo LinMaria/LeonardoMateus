@@ -13,6 +13,11 @@ website:
     left:
       - text: "Projects"
         href: projects/index.qmd
+      - menu:
+          - text: "Topographic Effect"
+            href: projects/posts/topo/index.qmd
+          - text: "Basin Effect"
+            href: projects/posts/basin/index.qmd
       - text: "CV"
         href: cv/index.qmd
     

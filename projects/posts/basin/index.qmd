@@ -24,3 +24,27 @@ The results of our work are twofold: On @fig-basin, we highlight the sedimentary
 
 Modeling results for the Tunja basin
 :::
+
+We have observed changes in the duration, amplitude, and frequency of nodes located over sedimentary basins and topographic features.
+
+![Iso-aceleration values in the Tunja basin](./tempo.png){#fig-tempo}
+The following figures display colormaps of amplifications versus structural periodo. More intense blue indicates higher amplifications, in contrast to yellow, which signifies lower  amplifications. On the left, the colormap represents amplifications resulting from a one-dimensional model. On the right, the amplifications are a consequence of using two-dimensional models. We can see:
+
+- Both models illustrate that the greatest amplifications occur close to the deepest zones of the basin 
+
+- It is evident that the one-dimensional model cannot replicate certain features in the basin, whereas the two-dimensional model successfully captures these details
+
+::: {#fig-1d layout-ncol=2}
+![Iso-aceleration values in the Tunja basin](./1d.png){#fig-1d}
+![Iso-aceleration values in the Tunja basin](./1d2.png){#fig-1d2}
+
+bla
+:::
+
+When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect.
+
+![Iso-aceleration values in the Tunja basin](./1defecto.png){#fig-1d}
+
+For practical purposes, and in order to incorporate these effects into building codes, it is necessary to divide the basin region based on its depth. For this specific case, I have segmented it into two distinct areas.
+
+![Iso-aceleration values in the Tunja basin](./basin effect.png){#fig-baeffect}
