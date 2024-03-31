@@ -12,6 +12,8 @@ sidebar: false
 
 The primary research focus was integrating models into seismic hazard, by using numerical simulations to account for site-specific effects. It was addressed by conducting two-dimensional simulations that analyzed the propagation of seismic waves through the ground and incorporating a non-linear constitutive model into QUAD4M, a FORTRAN software developed by researchers at the University of California, Davis.
 
+According to Ayoubi et al. (2020), the basin effect refers to the amplifications resulting from seismic waves trapped in soft sedimentary deposits located above a concave-shaped rock base. This condition causes significant changes in the amplitude, duration, and frequency of seismic signals. This behavior has been observed and has played a significant role in various earthquakes (Campillo et al., 1989; Pitarka et al., 1996; Hallier et al., 2008; Asimaki et al., 2015; Makra et al., 2021).
+
 ***Iso-accelerations***
 
 The results of our work are twofold: On @fig-basin, we highlight the sedimentary basin in gray, underscoring its complex structure and geological significance. On @fig-acc, we present iso-acceleration contours from our simulations, which identify areas within the basin at increased risk of seismic activity. This methodology not only advances our understanding of seismic wave behavior through complex geological formations but also aids in the precise identification of high-risk zones, contributing crucial data for seismic risk mitigation and urban planning in Tunja.
@@ -52,10 +54,12 @@ Amplification Factor Calculated for the Tunja basin
 :::
 
 
-When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect.
+When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect (@fig-1d).
 
 ![Basin-effect definition: 1D/2D](./1defecto.png){#fig-1d}
 
-For practical purposes, and in order to incorporate these effects into building codes, it is necessary to divide the basin region based on its depth. For this specific case, I have segmented it into two distinct areas.
+To effectively translate our seismic wave amplification findings into actionable guidelines for building codes, it became imperative to categorize the basin region according to its depth. This stratification is critical for tailoring construction standards that adequately reflect the varying seismic risks across different parts of the basin, as shown in @fig-baeffect. In this specific analysis, I delineated the basin into two distinct zones based on depth: one encompassing areas of the basin above 55 kilometers and another for regions below this depth threshold.
 
-![Iso-aceleration v](./basin effect.png){#fig-baeffect}
+This segmentation approach allows for a more nuanced understanding of seismic hazards, acknowledging that seismic amplification—and consequently, the potential for damage—varies significantly with depth. Areas above 55 kilometers may exhibit different seismic response characteristics compared to those below, impacting how structures within these zones should be designed and reinforced to withstand seismic events.
+
+![Amplification Function due to Basin Effect for Two Depths of the Tunja Basin.](./basin effect.png){#fig-baeffect}

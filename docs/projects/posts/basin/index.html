@@ -167,6 +167,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The primary research focus was integrating models into seismic hazard, by using numerical simulations to account for site-specific effects. It was addressed by conducting two-dimensional simulations that analyzed the propagation of seismic waves through the ground and incorporating a non-linear constitutive model into QUAD4M, a FORTRAN software developed by researchers at the University of California, Davis.</p>
+<p>According to Ayoubi et al.&nbsp;(2020), the basin effect refers to the amplifications resulting from seismic waves trapped in soft sedimentary deposits located above a concave-shaped rock base. This condition causes significant changes in the amplitude, duration, and frequency of seismic signals. This behavior has been observed and has played a significant role in various earthquakes (Campillo et al., 1989; Pitarka et al., 1996; Hallier et al., 2008; Asimaki et al., 2015; Makra et al., 2021).</p>
 <p><strong><em>Iso-accelerations</em></strong></p>
 <p>The results of our work are twofold: On <a href="#fig-basin">Figure&nbsp;1 (a)</a>, we highlight the sedimentary basin in gray, underscoring its complex structure and geological significance. On <a href="#fig-acc">Figure&nbsp;1 (b)</a>, we present iso-acceleration contours from our simulations, which identify areas within the basin at increased risk of seismic activity. This methodology not only advances our understanding of seismic wave behavior through complex geological formations but also aids in the precise identification of high-risk zones, contributing crucial data for seismic risk mitigation and urban planning in Tunja.</p>
 <div id="fig-basins" class="quarto-layout-panel page-columns page-full">
@@ -213,14 +214,14 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Two-Dimensional Model’s Detailed Capture</strong>: In contrast, the two-dimensional model demonstrates a superior ability to accurately model and reflect the basin’s detailed geological features. This model successfully captures variations in seismic behavior that the one-dimensional model cannot, such as lateral variations in seismic wave speed and amplification due to the basin’s irregular shape and varying depth.</p></li>
 </ol>
 <div id="fig-elephants" class="quarto-layout-panel page-columns page-full">
-<p></p><figcaption>Figure&nbsp;3: Modeling results for the Tunja basin</figcaption><p></p>
+<p></p><figcaption>Figure&nbsp;3: Amplification Factor Calculated for the Tunja basin</figcaption><p></p>
 <figure class="figure page-columns page-full">
 <div class="quarto-layout-row quarto-layout-valign-top page-columns page-full">
 <div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-model1" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="./1d.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
-<figcaption class="figure-caption margin-caption">(a) Geological profile of the Tunja basin</figcaption>
+<figcaption class="figure-caption margin-caption">(a) Amplification Factor Calculated Through One-Dimensional Models (1D)</figcaption>
 </figure>
 </div>
 </div>
@@ -228,25 +229,26 @@ ul.task-list li input[type="checkbox"] {
 <div id="fig-model2" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="./1d2.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
-<figcaption class="figure-caption margin-caption">(b) Iso-aceleration values in the Tunja basin</figcaption>
+<figcaption class="figure-caption margin-caption">(b) Amplification Factor Calculated Through two-Dimensional Models (2D)</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </figure>
 </div>
-<p>When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect.</p>
+<p>When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect (<a href="#fig-1d">Figure&nbsp;4</a>).</p>
 <div id="fig-1d" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="./1defecto.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;4: Iso-aceleration values in the Tunja basin</figcaption>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;4: Basin-effect definition: 1D/2D</figcaption>
 </figure>
 </div>
-<p>For practical purposes, and in order to incorporate these effects into building codes, it is necessary to divide the basin region based on its depth. For this specific case, I have segmented it into two distinct areas.</p>
+<p>To effectively translate our seismic wave amplification findings into actionable guidelines for building codes, it became imperative to categorize the basin region according to its depth. This stratification is critical for tailoring construction standards that adequately reflect the varying seismic risks across different parts of the basin, as shown in <a href="#fig-baeffect">Figure&nbsp;5</a>. In this specific analysis, I delineated the basin into two distinct zones based on depth: one encompassing areas of the basin above 55 kilometers and another for regions below this depth threshold.</p>
+<p>This segmentation approach allows for a more nuanced understanding of seismic hazards, acknowledging that seismic amplification—and consequently, the potential for damage—varies significantly with depth. Areas above 55 kilometers may exhibit different seismic response characteristics compared to those below, impacting how structures within these zones should be designed and reinforced to withstand seismic events.</p>
 <div id="fig-baeffect" class="quarto-figure quarto-figure-center anchored page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="./basin effect.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;5: Iso-aceleration v</figcaption>
+<figcaption class="figure-caption margin-caption">Figure&nbsp;5: Amplification Function due to Basin Effect for Two Depths of the Tunja Basin.</figcaption>
 </figure>
 </div>
 
