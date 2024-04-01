@@ -42,7 +42,7 @@ In an accompanying animation, I illustrate the propagation of an SH wave pulse t
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://linmaria.github.io/LinaAtTheMoment/projects/" role="button" target="_blank" style="padding: 15px 30px;">Take a look at my current projects</a>
+<a class="btn btn-primary" href="https://linmaria.github.io/LeonardoMateus/projects/" role="button" target="_blank" style="padding: 15px 30px;">Take a look at my current projects</a>
 </div>
 ```
 
