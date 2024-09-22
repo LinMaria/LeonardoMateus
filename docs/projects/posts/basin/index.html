@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,7 +45,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +59,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -66,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Leonardo S. Mateus Báez</span>
     </a>
@@ -81,49 +87,49 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../projects/index.html" rel="" target="">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text"></span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
         <li>
-    <a class="dropdown-item" href="../../../projects/posts/topo/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../../projects/posts/topo/index.html">
  <span class="dropdown-text">Topographic Effect</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../projects/posts/basin/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../../projects/posts/basin/index.html">
  <span class="dropdown-text">Basin Effect</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../cv/index.html" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="../../../cv/index.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/lsmateusb" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/lsmateusb"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/lsmateusb/" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/lsmateusb/"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:lsmateusb@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img" aria-label="email">
+    <a class="nav-link" href="mailto:lsmateusb@gmail.com"> <i class="bi bi-envelope" role="img" aria-label="email">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -166,47 +172,67 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <p>The primary research focus was integrating models into seismic hazard, by using numerical simulations to account for site-specific effects. It was addressed by conducting two-dimensional simulations that analyzed the propagation of seismic waves through the ground and incorporating a non-linear constitutive model into QUAD4M, a FORTRAN software developed by researchers at the University of California, Davis.</p>
 <p>According to Ayoubi et al.&nbsp;(2020), the basin effect refers to the amplifications resulting from seismic waves trapped in soft sedimentary deposits located above a concave-shaped rock base. This condition causes significant changes in the amplitude, duration, and frequency of seismic signals. This behavior has been observed and has played a significant role in various earthquakes (Campillo et al., 1989; Pitarka et al., 1996; Hallier et al., 2008; Asimaki et al., 2015; Makra et al., 2021).</p>
 <p><strong><em>Iso-accelerations</em></strong></p>
-<p>The results of our work are twofold: On <a href="#fig-basin">Figure&nbsp;1 (a)</a>, we highlight the sedimentary basin in gray, underscoring its complex structure and geological significance. On <a href="#fig-acc">Figure&nbsp;1 (b)</a>, we present iso-acceleration contours from our simulations, which identify areas within the basin at increased risk of seismic activity. This methodology not only advances our understanding of seismic wave behavior through complex geological formations but also aids in the precise identification of high-risk zones, contributing crucial data for seismic risk mitigation and urban planning in Tunja.</p>
+<p>The results of our work are twofold: On <a href="#fig-basin" class="quarto-xref">Figure&nbsp;1 (a)</a>, we highlight the sedimentary basin in gray, underscoring its complex structure and geological significance. On <a href="#fig-acc" class="quarto-xref">Figure&nbsp;1 (b)</a>, we present iso-acceleration contours from our simulations, which identify areas within the basin at increased risk of seismic activity. This methodology not only advances our understanding of seismic wave behavior through complex geological formations but also aids in the precise identification of high-risk zones, contributing crucial data for seismic risk mitigation and urban planning in Tunja.</p>
 <div id="fig-basins" class="quarto-layout-panel page-columns page-full">
-<p></p><figcaption>Figure&nbsp;1: Modeling results for the Tunja basin</figcaption><p></p>
-<figure class="figure page-columns page-full">
-<div class="quarto-layout-row quarto-layout-valign-top page-columns page-full">
-<div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
-<div id="fig-basin" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="./basin.png" class="img-fluid figure-img" data-ref-parent="fig-basins"></p>
-<figcaption class="figure-caption margin-caption">(a) Geological profile of the Tunja basin</figcaption>
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-basins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-basins" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-basin" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-basin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./basin.png" class="img-fluid figure-img" data-ref-parent="fig-basins">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-subfloat-caption quarto-subfloat-fig" id="fig-basin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Geological profile of the Tunja basin
+</figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
-<div id="fig-acc" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="./modeloD.png" class="img-fluid figure-img" data-ref-parent="fig-basins"></p>
-<figcaption class="figure-caption margin-caption">(b) Iso-aceleration values in the Tunja basin</figcaption>
-</figure>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-basins" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-acc" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-acc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./modeloD.png" class="img-fluid figure-img" data-ref-parent="fig-basins">
 </div>
-</div>
-</div>
-</figure>
-</div>
-<p>In our study, we’ve identified significant variations in the duration, amplitude, and frequency of seismic waves at nodes overlying sedimentary basins and topographic features, as shown in <a href="#fig-tempo">Figure&nbsp;2</a>.</p>
-<div class="quarto-layout-panel page-columns page-full">
-<div class="quarto-layout-row quarto-layout-valign-top page-columns page-full">
-<div class="quarto-layout-cell page-columns page-full" style="flex-basis: 100.0%;justify-content: center;">
-<div id="fig-tempo" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="./tempo.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;2: Surface-Viewed Waveform Shapes Derived from Modeling</figcaption>
+<figcaption class="quarto-float-caption-margin quarto-subfloat-caption quarto-subfloat-fig" id="fig-acc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Iso-aceleration values in the Tunja basin
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<p>The <a href="#fig-model1">Figure&nbsp;3 (a)</a> and <a href="#fig-model2">Figure&nbsp;3 (b)</a> offer a detailed visualization through colormaps of amplification versus structural period, utilizing a color spectrum where more intense shades of blue signify higher amplifications, contrasting sharply with yellows that indicate lower amplifications. On the left, we observe the amplification outcomes derived from a one-dimensional model, providing a foundational yet simplified understanding of seismic wave amplifications across the basin. In <a href="#fig-model1">Figure&nbsp;3 (a)</a>, the amplifications depicted are the result of employing more complex two-dimensional models, offering a nuanced and comprehensive portrayal of seismic behavior.</p>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-basins-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Modeling results for the Tunja basin
+</figcaption>
+</figure>
+</div>
+<p>In our study, we’ve identified significant variations in the duration, amplitude, and frequency of seismic waves at nodes overlying sedimentary basins and topographic features, as shown in <a href="#fig-tempo" class="quarto-xref">Figure&nbsp;2</a>.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel page-columns page-full" data-layout-ncol="1">
+<div class="quarto-layout-row page-full">
+<div class="quarto-layout-cell page-columns page-full" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div id="fig-tempo" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-tempo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./tempo.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-tempo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Surface-Viewed Waveform Shapes Derived from Modeling
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>The <a href="#fig-model1" class="quarto-xref">Figure&nbsp;3 (a)</a> and <a href="#fig-model2" class="quarto-xref">Figure&nbsp;3 (b)</a> offer a detailed visualization through colormaps of amplification versus structural period, utilizing a color spectrum where more intense shades of blue signify higher amplifications, contrasting sharply with yellows that indicate lower amplifications. On the left, we observe the amplification outcomes derived from a one-dimensional model, providing a foundational yet simplified understanding of seismic wave amplifications across the basin. In <a href="#fig-model1" class="quarto-xref">Figure&nbsp;3 (a)</a>, the amplifications depicted are the result of employing more complex two-dimensional models, offering a nuanced and comprehensive portrayal of seismic behavior.</p>
 <p>Key observations from these models include:</p>
 <ol type="1">
 <li><p><strong>Prominent Amplification in Basin’s Deepest Zones</strong>: Both the one-dimensional and two-dimensional models converge on the insight that the most significant amplifications are observed near the deepest zones of the basin. This correlation underscores the critical role of basin depth in influencing seismic wave amplification, a vital consideration for seismic risk assessment.</p></li>
@@ -214,41 +240,61 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Two-Dimensional Model’s Detailed Capture</strong>: In contrast, the two-dimensional model demonstrates a superior ability to accurately model and reflect the basin’s detailed geological features. This model successfully captures variations in seismic behavior that the one-dimensional model cannot, such as lateral variations in seismic wave speed and amplification due to the basin’s irregular shape and varying depth.</p></li>
 </ol>
 <div id="fig-elephants" class="quarto-layout-panel page-columns page-full">
-<p></p><figcaption>Figure&nbsp;3: Amplification Factor Calculated for the Tunja basin</figcaption><p></p>
-<figure class="figure page-columns page-full">
-<div class="quarto-layout-row quarto-layout-valign-top page-columns page-full">
-<div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
-<div id="fig-model1" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="./1d.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
-<figcaption class="figure-caption margin-caption">(a) Amplification Factor Calculated Through One-Dimensional Models (1D)</figcaption>
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-elephants-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-elephants" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-model1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-model1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./1d.png" class="img-fluid figure-img" data-ref-parent="fig-elephants">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-subfloat-caption quarto-subfloat-fig" id="fig-model1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Amplification Factor Calculated Through One-Dimensional Models (1D)
+</figcaption>
 </figure>
 </div>
 </div>
-<div class="quarto-layout-cell quarto-layout-cell-subref page-columns page-full" style="flex-basis: 50.0%;justify-content: center;">
-<div id="fig-model2" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="./1d2.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></p>
-<figcaption class="figure-caption margin-caption">(b) Amplification Factor Calculated Through two-Dimensional Models (2D)</figcaption>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-elephants" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-model2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-model2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./1d2.png" class="img-fluid figure-img" data-ref-parent="fig-elephants">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-subfloat-caption quarto-subfloat-fig" id="fig-model2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Amplification Factor Calculated Through two-Dimensional Models (2D)
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-elephants-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Amplification Factor Calculated for the Tunja basin
+</figcaption>
 </figure>
 </div>
-<p>When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect (<a href="#fig-1d">Figure&nbsp;4</a>).</p>
-<div id="fig-1d" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="./1defecto.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;4: Basin-effect definition: 2D/1D</figcaption>
+<p>When I divide the results from the two-dimensional model by those from the one-dimensional model, I obtain the basin or topographic effect (<a href="#fig-1d" class="quarto-xref">Figure&nbsp;4</a>).</p>
+<div id="fig-1d" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-1d-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./1defecto.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-1d-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Basin-effect definition: 2D/1D
+</figcaption>
 </figure>
 </div>
-<p>To effectively translate our seismic wave amplification findings into actionable guidelines for building codes, it became imperative to categorize the basin region according to its depth. This stratification is critical for tailoring construction standards that adequately reflect the varying seismic risks across different parts of the basin, as shown in <a href="#fig-baeffect">Figure&nbsp;5</a>. In this specific analysis, I delineated the basin into two distinct zones based on depth: one encompassing areas of the basin above 55 kilometers and another for regions below this depth threshold.</p>
+<p>To effectively translate our seismic wave amplification findings into actionable guidelines for building codes, it became imperative to categorize the basin region according to its depth. This stratification is critical for tailoring construction standards that adequately reflect the varying seismic risks across different parts of the basin, as shown in <a href="#fig-baeffect" class="quarto-xref">Figure&nbsp;5</a>. In this specific analysis, I delineated the basin into two distinct zones based on depth: one encompassing areas of the basin above 55 kilometers and another for regions below this depth threshold.</p>
 <p>This segmentation approach allows for a more nuanced understanding of seismic hazards, acknowledging that seismic amplification—and consequently, the potential for damage—varies significantly with depth. Areas above 55 kilometers may exhibit different seismic response characteristics compared to those below, impacting how structures within these zones should be designed and reinforced to withstand seismic events.</p>
-<div id="fig-baeffect" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="./basin effect.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption margin-caption">Figure&nbsp;5: Amplification Function due to Basin Effect for Two Depths of the Tunja Basin.</figcaption>
+<div id="fig-baeffect" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-baeffect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./basin effect.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-baeffect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Amplification Function due to Basin Effect for Two Depths of the Tunja Basin.
+</figcaption>
 </figure>
 </div>
 
@@ -334,10 +380,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -347,8 +410,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -360,7 +432,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -404,6 +599,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -429,6 +625,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -491,13 +713,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><span class="faux-block">© 2024 Lina Pérez</span></div>   
+    <div class="nav-footer-left">
+<p><span class="faux-block">© 2024 Lina Pérez</span></p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/lmateus/LeonardoMateus">View source on GitHub</a></span></div>
+    <div class="nav-footer-right">
+<p><span class="faux-block"><a href="https://github.com/lmateus/LeonardoMateus">View source on GitHub</a></span></p>
+</div>
   </div>
 </footer>
+
 
 
 
