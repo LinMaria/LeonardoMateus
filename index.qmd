@@ -1,7 +1,7 @@
 ---
 page-layout: full
 sidebar: false
-image: "img/FotoLeo.JPG"
+image: "img/FotoLeo.jpg"
 about:
   template: trestles
   id: about-block
